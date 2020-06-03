@@ -113,11 +113,7 @@ address.
 {% if page.latitude and page.longitude and online == "false" %}
 <p id="where">
   <strong>Where:</strong>
-  {{page.address}}.
-  Get directions with
-  <a href="//www.openstreetmap.org/?mlat={{page.latitude}}&mlon={{page.longitude}}&zoom=16">OpenStreetMap</a>
-  or
-  <a href="//maps.google.com/maps?q={{page.latitude}},{{page.longitude}}">Google Maps</a>.
+  Install Zoom. If you haven't used Zoom before, go to <a href="https://zoom.us/" target="_blank">zoom.us</a>, and download and install the Zoom client for your computer. 
 </p>
 {% elsif online == "true_public" %}
 <p id="where">
